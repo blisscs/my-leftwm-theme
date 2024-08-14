@@ -6,5 +6,6 @@ SCRIPTPATH="$( cd "$(dirname "$0")" ; pwd -P )"
 #if [ -x "$(command -v feh)" ]; then
 #  feh --bg-scale $SCRIPTPATH/down.jpg
 #fi
+killall xmobar
 
 leftwm-command "UnloadTheme"
